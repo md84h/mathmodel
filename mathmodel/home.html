@@ -1,0 +1,412 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mathematical Modeling  </title>
+        <link rel="shortcut icon" href="date20.png" type="image/x-icon"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+
+	// hide #back-top first
+	$("#back-top").hide();
+	
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+
+		// scroll body to 0px on click
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	});
+
+});
+</script>
+<script>
+    $(document).ready(function(){
+    $('a').click(function () {
+    $('html,body').animate({
+        scrollTop: $($(this).attr('href')).offset().top
+    }, 800);
+});
+    });
+</script>
+   
+    </head>
+    <body>
+
+            <div id='cssmenu'>
+                <ul>
+                    <li class='active'><a href='#home'><span>Home</span></a></li>
+                    <li class='has-sub'><a href='#about'><span>About</span></a></li>
+                    <li class='has-sub'><a href='#event'><span>Topics</span></a></li>
+                    <li class='has-sub'><a href='#speakers'><span>Speakers</span></a></li>
+                    <li class='has-sub'><a href='#register'><span>Register</span></a></li>
+                    <li class='has-sub'><a href='#schedule'><span>Schedule</span></a></li>
+                    <li class='has-sub'><a href='#venue'><span>Venue</span></a></li>
+                    <li class='has-sub'><a href='#accomodation'><span>Accomodation</span></a></li>
+                    <li class='has-sub'><a href='#organizers'><span>Organizers</span></a></li>
+                    <li class='has-sub'><a href='#sponsors'><span>Sponsors</span></a></li>
+                    <li class='last'><a href='#contact'><span>Contact</span></a></li>
+                </ul>
+            </div>
+        <div id="home">
+            
+        </div>
+        <div>
+        <p id="back-top">
+            <a href="#home"><span></span>Back to TOP</a>
+        </p></div>
+        <div id="about">
+            <p style="text-align:center;color:#525252;font-size:20px"><b>ABOUT</b></p>
+            <dl>
+                <dt style="font-size:30px; font:times new roman; color:#669900; margin-left:3%"><b>Workshop</b></dt>
+                <dd style="font-size:20px; font:times new roman; color:black; margin-left:5%;"><br><b>Mathematics</b> is the backbone for any field of Engineering and is true for computer science and
+information technology too. Different concepts in
+Mathematics are applied to solve varieties of
+problems that a computer science engineer can
+come-up with. In this workshop, we teach some
+<b>mathematical concepts</b> that are frequently used to
+solve practical problems in <b>computer science and
+information technology.</b></dd>
+<br>
+<br>
+                <dt style="font-size:30px; font:times new roman; color:#669900; margin-left:3%"><b>VIT</b></dt>
+                <dd style="font-size:20px; font:times new roman; color:black; margin-left:5%;"><br><b>VIT University</b>, one of the premier institutes in Tamil
+Nadu, was established in 1984. It is a major,
+comprehensive, student-centered research University
+dedicated to excellence in teaching, research and
+service. The University was established with the aim of
+providing quality higher education at par with
+international standards. The campus has a cosmopolitan
+atmosphere with students from all corners of the globe.
+Presently, the student s strength has crossed over
+20,000. Our Memoranda of Understanding with various
+international universities are our major strength. Mission
+of VIT is to educate students from all over India,
+including those from the local and rural areas, and from
+other countries, so they become enlightened individuals,
+improving the living standards of their families,
+industries and society. VIT will provide individual
+attention, world-class quality education and take care of
+character building. It provides an exchange of students
+and faculty, to encourage joint research projects for the
+mutual benefit of these Universities. VIT University
+obtained the highest possible grade of "A" from NAAC
+for all the programs offered by the University during the
+re-accreditation process in January 2009.</dd>
+                <br>
+<br>
+                <dt style="font-size:30px; font:times new roman; color:#669900; margin-left:3%"><b>SCSE</b></dt>
+                <dd style="font-size:20px; font:times new roman; color:black; margin-left:5%;"><br>History of computing discipline at VIT University dates
+back to 1993, when the Department of Computer
+Science & Engineering was established to meet the
+demand for well-qualified computer professionals. The
+<b>School of Computing Science and Engineering (SCSE)</b>
+was conceived in the year 2009. At present, the
+School has more than 5000 students and around 120
+core faculty members apart from many visiting
+professors and eminent researchers from different
+parts of the world.</dd>
+            </dl>
+            
+        </div>
+        <div id="event">
+            <p style="text-align:center;color:#525252;font-size:20px; padding-top:50px"><b>TOPICS</b></p>
+            <ul><br>
+                <li class="list">Numerical and Statistical Methods</li><br>
+                <li class="list">Logic and Program Verification</li><br>
+                <li class="list">Intelligent Computing <span style="font-size:15px">(Fuzzy and Rough Sets, etc.)</span></li><br>
+                <li class="list">Security Models</li><br>
+                <li class="list">Game theory</li><br>
+                <li class="list">Grammar models</li><br>
+                <li class="list">Supervised Learning Methods</li><br>
+                
+            </ul><br><br><br>
+        </div>
+        <div id="speakers">
+                 <p style="text-align:center;color:#525252;font-size:20px; padding-top:50px"><b>SPEAKERS</b></p>
+                 <ul><br>
+                     <li style="background:#E0E0D1;padding:4px 4px 4px 4px;font-size:25px;border-radius:10px;box-shadow: 5px 5px 5px #666699;">Dr. K. Narayanakumar, CMI</li><br>
+                     <li style="background:#E0E0D1;padding:4px 4px 4px 4px;font-size:25px;border-radius:10px;box-shadow: 5px 5px 5px #666699;">Dr. Sanyasiraju, IITM</li><br>
+                     <li style="background:#E0E0D1;padding:4px 4px 4px 4px;font-size:25px;border-radius:10px;box-shadow: 5px 5px 5px #666699;">Dr. Sujata Ghosh, ISI Chennai</li><br>
+                     <li style="background:#E0E0D1;padding:4px 4px 4px 4px;font-size:25px;border-radius:10px;box-shadow: 5px 5px 5px #666699;">Dr. GK Patra, <span style="font-size:20px">Center for Math. Modeling and Computer Simulation, Banglore</span></li><br>
+                     <li style="background:#E0E0D1;padding:4px 4px 4px 4px;font-size:25px;border-radius:10px;box-shadow: 5px 5px 5px #666699;">Dr. Sakthi Balan,<span style="font-size:20px"> ECOM Research Lab, Infosys, Banglore</span></li><br>
+                     <li style="background:#E0E0D1;padding:4px 4px 4px 4px;font-size:25px;border-radius:10px;box-shadow: 5px 5px 5px #666699;">Dr. N. Ch. Sriman Narayana Iyengar, SCSE,VIT</li><br>
+                     <li style="background:#E0E0D1;padding:4px 4px 4px 4px;font-size:25px;border-radius:10px;box-shadow: 5px 5px 5px #666699;">Dr. Aswani Kumar, SITE, VIT</li><br>
+                     <li style="background:#E0E0D1;padding:4px 4px 4px 4px;font-size:25px;border-radius:10px;box-shadow: 5px 5px 5px #666699;">Dr. Chandramouli, PVSSR, SCSE, VIT</li><br>
+                     
+                     <li style="background:#E0E0D1;padding:4px 4px 4px 4px;font-size:25px;border-radius:10px;box-shadow: 5px 5px 5px #666699;">Dr. Debi Prasanna A, SCSE, VIT</li><br>
+                     <li style="background:#E0E0D1;padding:4px 4px 4px 4px;font-size:25px;border-radius:10px;box-shadow: 5px 5px 5px #666699;">Dr. Lakshmanan K, SCSE, VIT</li><br>
+                     
+                     
+                     
+                 </ul>
+        </div>
+        <div id="register">
+            <p style="text-align:center;color:#525252;font-size:20px; padding-top:50px"><b>REGISTER</b></p>
+            <ul><span style="color:#99CC00; font-size:40px; font-family:Copperplate Gothic Bold,Courier"><b>Target Audience</b></span><br>
+                <br><li class="list1" style="border-top-left-radius:3px; border-top-right-radius: 3px"><b>Post Graduate Student</b></li>
+                <li class="list1"><b>Research Scholars <span style="font-size:15px;color:red">(Full Time)</span></b></li>
+                <li class="list1" style="border-bottom-left-radius:3px; border-bottom-right-radius: 3px "><b>Faculties</b> <span style="font-size:15px">Computer Science and Information Technology</span></li>
+            </ul>
+            <p id="max">Max of 60 registration,First Come First Served!!!</p>
+            <div id="apply">
+                <p style="font-size:60px;padding-top: 20px; font-family:Forte,sans-serif;color:#0099FF" align="center">Apply</p>
+                <table id="tab" align="center">
+                    <tr>
+                        <td style="padding-right: 10px;">Student & Research Scholars</td>
+                        <td>Rs.1000</td>
+                    </tr>
+                    <tr>
+                        <td>Faculty Members</td>
+                        <td>Rs.1500</td>
+                    </tr>
+                    <tr>    
+                        <td>Industry Person</td>
+                        <td>Rs.2500</td>    
+                    </tr>                </table>
+                <p style="font-size:30px;color:#0099FF;"align="center"><b>Click to...</b></p>
+                    <a href="Registration_Form.pdf" target="_blank" id="pdf"><span style="font-size:20px;"><b>View Form</b></span></a>
+                <a href="Registration Form.docx" target="_blank" id="doc"><span style="font-size:20px;"><b>Download Form</b></span></a>
+            <div style="margin-top:10%;">
+                    <p style="font-size:35px;color:#6600CC;font-family: Georgia,'Times New Roman',times,serif;" align="center">Registration is closed, <b>SPOT</b> Registration is possible<br><b>CONTACT</b> Dr. Lakshmanan (8903988685)</p>
+                    <p style="margin-left:5%;font-size:40px;"><b>Send</b></p>
+                <p style="margin-left:7%;margin-top:-3%; font-size:25px;"> Filled-in <b>Registration Form</b> and <b>DD</b> of specified amount drawn in favour of <b>VIT University payable at Vellore</b> to</p>
+                <p style="font-size:25px; margin-left:35%; margin-bottom:1%;box-shadow: 5px 5px 5px #999966; width:30%; height:auto;border-radius: 2px; opacity:.6; background:white; padding:15px 15px 15px 15px">Dr. Lakshmanan K, Professor, SCSE<br>VIT University, Vellore-632014<br>Email:klakshma@vit.ac.in<br>Mobile:0-8903988685</p><br>
+                </div></div>
+        </div>
+        <div id="schedule">
+            <p style="text-align:center;color:#525252;font-size:20px; padding-top:50px"><b>SCHEDULE</b></p>
+            <h2 align="center" style="color:#0066FF">Hover over DATES to unleash the <b>Full Schedule</b></h2>
+            <div class="an" id="an1"><img src="date20.png" alt="20"/><div class="ann" id="ann1"><table cellpadding="5" class="tabi">
+                        <tr class="tra">
+                        <td class="t">09:15 - 09:45</td>
+                        <td>Registration @ SJT307</td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">09:45 - 10:30</td>
+                            <td>Inauguration @SJT Gallery(4th Floor)<br><ol>Chief Guests<li>Dr. Gopinath Ganapathy, Chair & Head, Technopark, Bharathidasan university, Trichirappalli</li>
+                                    <li>Dr. GK Patra, Scientist, CSIR Center for Mathematical Modeling & Computer Simulation, Banglore</li></ol></td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">10:30 - 10:45</td>
+                            <td>Coffee Break @SJT Gallery(4th Floor)</td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">10:45 - 12:00</td>
+                            <td>Key-note Address @SJT307<br>Dr. GK Patra, C-MMACS<br><span><i>Mathematical Models in Designing Cryptographic</i><br><i>Primitives (Chaotic and Neural Cryptographies): An Interdisciplinary Approach</i></span></td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">12:00 - 01:00</td>
+                            <td>Dr. Sakthi Balan : ECOM Research Lab, Infosys<br><i>Automata for Images</i> </td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">01:00 - 02:00</td>
+                            <td>Lunch Break</td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">02:00 - 03:00</td>
+                            <td>Dr. Sakthi Balan : ECOM Research Lab, Infosys<br><i>Peptide Computers</i> </td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">03:00 - 04:00</td>
+                            <td>Dr. Aswani Kumar Ch: VIT<br><i>Mathematical Models for Informational Retrieval</i></td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">04:00 - 04:15</td>
+                            <td>Tea Break</td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">04:15 - 05:45</td>
+                            <td>Dr. Chandramouli PVSSR: VIT<br><i>Graph based Image Processing </i></td>
+                        </tr>
+                    </table></div></div>
+            <div class="an" id="an2" style="margin-top:-13.3%;margin-left:45%"><img src="date21.png" alt="21" /><div class="ann" id="ann2"><table cellpadding="5" class="tabi">
+                        <tr class="tra">
+                        <td class="t">09:30 - 10:30</td>
+                        <td>Dr. Sujata Ghosh : ISI Chennai @SJT307<br><i>Game theory and its application - I</i></td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">10:30 - 10:45</td>
+                            <td>COFFEE BREAK</td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">10:45 - 12:00</td>
+                            <td>Dr. Chandramouli PVSSR : VIT<br><i>Fuzzy Based Image processing</i></td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">12:00 – 1.00</td>
+                            <td>Dr. Debi Prasanna Achariya: VIT<br><i>Rough sets and its applications – I</i></td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">01:00 - 02:00</td>
+                            <td>Lunch Break</td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">02:00 - 03:00</td>
+                            <td>Dr. Sujata Ghosh : ISI Chennai<br><i>Game theory and its application – II</i> </td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">03:00 - 04:00</td>
+                            <td>Dr. N.Ch S.N. Iyengar : VIT<br><i>Security</i></td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">04:00 - 04:15</td>
+                            <td>Tea Break</td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">04:15 - 05:15</td>
+                            <td>Dr. Debi Prasanna Achariya: VIT<br><i>Rough sets and its applications – II</i></td>
+                        </tr>
+                         <tr class="tra">
+                            <td class="t">05:15 - 05:45</td>
+                            <td>Discussion  and Open session <br><i>Participants are encouraged to discuss their problems and questions</i></td>
+                        </tr>
+                    </table></div></div>
+            <div class="an" id="an3" style="margin-top:-13.2%; margin-left:63%"><img src="date22.png" alt="22"/><br><div class="ann" id="ann3"><table cellpadding="5" class="tabi">
+                        <tr class="tra">
+                        <td class="t">09:30 - 10:30</td>
+                        <td>Dr. Lakshmanan.K : VIT @SJT307<br><i>Grammar Models for Bio-molecular structures</i></td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">10:30 - 10:45</td>
+                            <td>COFFEE BREAK</td>
+                        </tr>
+                       <tr class="tra">
+                            <td class="t">10:45 - 12:00</td>
+                            <td>Dr. K.Narayana kumar : Chennai Mathematical Institute<br><i>Logics for verification – I</i></td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">12:00 – 1.00</td>
+                            <td>Dr. Sanyasiraju : IIT Madras<br><i>Numerical methods and its applications – I</i></td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">01:00 - 02:00</td>
+                            <td>Lunch Break</td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">02:00 - 03:00</td>
+                            <td>Dr. K.Narayana kumar : Chennai Mathematical Institute<br><i>Logics for verification – II</i> </td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">03:00 - 04:00</td>
+                            <td>Dr. Sanyasiraju : IIT Madras <br><i>Numerical methods and its applications – II</i></td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">04:00 - 04:30</td>
+                            <td>Valedictory</td>
+                        </tr>
+                        <tr class="tra">
+                            <td class="t">04:30</td>
+                            <td>HIGH TEA</td>
+                        </tr>
+                        
+                    </table></div></div>
+            <img src="date2.png" alt="FEB'14" style=" margin-left:33%;width:35%;height:12%;margin-top:8%;margin-bottom:10%; "/><br>
+            </div>
+        <div id="venue">
+             <p style="text-align:center;color:#525252;font-size:20px; padding-top:50px"><b>VENUE</b></p>
+            <h1 align="center">VELLORE INSTITUTE OF TECHNOLOGY<br>Silver Jubilee Tower(SJT)<br>Vellore,Tamilnadu</h1>
+            <div align="center" style="margin-top:7%; color:#33fff; font-size:35px"><a href="http://www.vit.ac.in/informationfor/location.asp" target="_blank" style="text-decoration:none;"><b>GETTING HERE</b></a>    
+        </div>
+            <div ><br><a href="http://www.vit.ac.in/campus/campus_layout_download.pdf" target="_blank" style="text-decoration: none;font-size:30px;margin-left:30%"><b>Enter the Campus</b></a>
+                <a href="http://www.vit.ac.in/campus/Hostel_Layout_Download.pdf" target="_blank" style="text-decoration: none;font-size:30px;margin-left:5%"><b>Enter the Hostel</b></a>
+            </div>
+            <img src="DSC03676.jpg" alt="vit" style="margin-top:3%; width:100%; height:600px; "/>
+        </div>
+        <div id="accomodation">
+            <p style="text-align:center;color:#525252;font-size:20px; padding-top:50px"><b>ACCOMODATION</b></p>
+            <p align="center" style="font-size:30px;color:white;font-family:Adobe Gothic Std B,serif"> Accomodation for <b>Outstation Participants</b> in Hostel(shared room)</p>
+            <p align="center" style="font-size:25px;color:white">for only</p>
+            <p align="center" style="font-size:50px;color:white;font-family:Adobe Gothic Std B,serif">Rs.250 <span style="font-size:30px">per day</span></p>
+            <div id="offer">
+                <h1 align="center" style="color:#5C005C;font-size:40px">GRANT!!!</h1>
+                <p align="center" style="font-size:30px;color:#990099">VIT has some grants for needy participants to support<span style="font-size:20px">(other states/far-away places)</span></p>
+                <p style="margin-left:30%; font-size:25px;color:#990099;"><b>SECOND</b> class sleeper <b>TRAIN</b> charges or<br>shortest <b>BUS</b> route charges</p>
+                <p align="right" style="font-size:20px;color:#990099;">Interested person hit the <a href="#contact"><b>CONTACT</b></a></p>
+            </div><br>
+        </div>
+        <div id="organizers">
+            <p style="text-align:center;color:#525252;font-size:20px; padding-top:50px"><b>ORGANIZERS</b></p>
+            <center><img src="VIT Logo-new-blue.jpg" style="height:120px; width:300px;"></center>
+            <p style="font-size:30px; heigth:auto;width:53%; background:#E0E0D1;margin-left:23%;box-shadow: 5px 5px 5px black; border-radius:3px;color:#6600CC;font-family: Georgia,'Times New Roman',times,serif; padding:10px 15px 10px 10px">School of Computing Science and Engineering(SCSE)</p>
+            <dl style="margin-left:34%; width:30%; heigth:auto; padding:10px 10px 10px 10px;box-shadow: 5px 5px 5px black; border-radius:3px; background:#E0E0D1">
+                <dt class="me"><b>Chief-Patron</b></dt>
+                <dd class="des"><b>Dr. G. Viswanathan</b>, Chancellor, VIT University<div class="desm"><img src="chancellor.jpg" height="80%" width="50%"/></div></dd><br>
+                <dt class="me"><b>Patron(s)</b></dt>
+                <dd class="des"><b>Mr. Sankar Viswanathan</b>, Vice Presiden<div class="desm"><img src="shankar.jpg"  height="80%" width="50%"/></dd>
+                <dd class="des"><b>Mr. Sekar Viswanathan</b>, Vice President<div class="desm"><img src="sekar.jpg" height="80%" width="50%"/></div></dd>
+                <dd class="des"><b>Mr. G.V. Selvam</b>, Vice President<div class="desm"><img src="selvam.jpg" height="80%" width="50%"/></div></dd><br>
+                <dt class="me"><b>Co-Patron(s)</b></dt>
+                <dd class="des"><b>Prof. V. Raju</b>, Vice Chancellor</dd>
+                <dd class="des"><b>Prof. S. Narayanan</b>, Pro-Vice Chancellor, Vellore</dd>
+                <dd class="des"><b>Prof. Anand A Samuel</b>, Pro-Vice Chancellor, Chennai</dd><br>
+                <dt class="me"><b>Programme Chair</b></dt>
+                <dd class="des"><b>Dr. Siva Venkateswaran</b>, Dean, SCSE</dd><br>
+                <dt class="me"><b>Conveners</b></dt>
+                <dd class="des"><b>Dr. Lakshmannan K</b>, Prof, SCSE</dd>
+                <dd class="des"><b>Dr. N.Ch.S N Iyengar</b>, Senior Prof, SCSE</dd><br>
+                <dt class="me"><b>Organizing Committee </b></dt>
+                <dd class="des"><b>Prof. Jaya Subbulakshmi</b>, Asst Prof</dd>
+                <dd class="des"><b>Prof. P. Boominathan</b>, Asst Prof(Sr.)</dd>
+                <dd class="des"><b>Prof. K Marimutthu</b>, Asst Prof(Sr.)</dd>
+                <dd class="des"><b>Prof. K. S. Sendhilkumar</b>, Asst Prof(Sr.)</dd>
+                <dd class="des"><b>Prof. G Anuradha</b>, Asst Prof</dd>
+                <dd class="des"><b>Prof. Annapurana J</b>, Asst. Prof. (Sr.)</dd>
+                <dd class="des"><b>Prof. J N Swathi</b>, Asst Prof(Sr.)</dd>
+                
+                
+                
+            </dl><br>
+        </div>
+                    <div id="sponsors">
+                        <p style="text-align:center;color:#525252;font-size:20px; padding-top:50px"><b>SPONSORS</b></p>
+                        <ul style="list-style-type:none;border-radius:5px;box-shadow: 5px 5px 5px black; background:white; width:42%;margin-left:30%;font-size:40px">
+                            <li style="color:black;padding-top:5%;" >National Board for Higher Mathematics<a href="www.nbhm.dae.gov.in" target="_blank"><img src="spon.jpg" align="top"style="width:50%; heigth:25%;"/></a><br></li>
+                            
+                            <li style="color:black">SERB, DST<img src="dst.jpg" align="middle" style="width:50%; heigth:25% "/></li><br>
+                            <li style="color:black">IARCS<img src="iarcs.jpg" align="middle" style="width:40%;heigth:25%"/><a href="www.iarcs.org.in" target="_blank" style="text-decoration:none;"><span style="font-size:25px;color:black">www.iarcs.org.in</span></a></li><br>
+                            <li style="color:black">R. Manoharan, LIC Agent</li><br>
+                            <li style="color:black">Balan Communications & Stores</li><br>
+                            <li style="color:black">ProQuest,Ooty</li><br>
+                        </ul><br>
+                    </div>
+        <div id="contact">
+            <p style="text-align:center;color:#525252;font-size:20px; padding-top:50px"><b>CONTACT</b></p>
+            <div id="con">
+                <p align="center"><b>Dr. N. Ch. Sriman Narayana Iyengar</b></p>
+                <p>Senior Professor,</p>
+                <p>School of Computing Science & Engineering,</p>
+                <p>VIT University, Vellore-632014</p>
+                <p>Email:nchsniyr@vit.ac.in</p>
+                <p>Tel: 0416-220 2602/ 0- 95 666 567 57</p>
+                <p align="center"><b>Dr. Lakshmanan K</b></p>
+                <p>Professor, SCSE</p>
+                <p>VIT University, Vellore-632014</p>
+                <p>Email:klakshma@vit.ac.in</p>
+                <p>Mobile:0-8903988685</p>
+            </div><br>
+            
+        </div>
+        <div style="width:100%;height:auto;background:#999966;bottom:0;padding-top:1px;padding-bottom: 1px">
+            <p align="center" style="color:white">Website Designed by: <a href="https://www.facebook.com/md84h" target="_blank" style="text-decoration: none; color:#006666;font-size:20px"><b>Danish Ansari</b></a></p>
+        </div>
+    </body>
+</html>
